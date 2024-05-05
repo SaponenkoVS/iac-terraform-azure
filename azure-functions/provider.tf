@@ -1,9 +1,3 @@
-provider "azurerm" {
-  version = ">=0.11"
-  skip_provider_registration = true
-  features {}
-}
-
 terraform {
   backend "local" {
     path = "./terraform.tfstate"
@@ -17,3 +11,10 @@ terraform {
     }
   }
 }
+
+provider "azurerm" {
+  version = ">=0.11"
+  skip_provider_registration = true
+  features {}
+}
+
