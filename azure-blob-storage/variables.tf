@@ -18,18 +18,10 @@ variable "storage_account_replication_type" {
   description = "test"
 }
 
-variable "app_service_plan_name" {
+variable "storage_container_name" {
   description = "test"
 }
 
-variable "app_service_plan_tier" {
-  description = "test"
-}
-
-variable "app_service_plan_size" {
-  description = "test"
-}
-
-variable "function_app_name" {
+variable "storage_blob_name" {
   description = "test"
 }
